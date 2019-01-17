@@ -1,0 +1,104 @@
+1、dpkg -i bcmwl-kernel-source_6.30.223.271+bdcom-0ubuntu4_i386.deb
+2、Sudo dpkg -i dkms_2.2.0.3-2_all.deb
+3、Leafpad /etc/apt/sources.list
+4、Arch
+5、Uname -m
+6、Get conf LONG_BIT
+7、Uname -r
+8、Dpkg -s crtypsetup
+9、dpkg -i bcmwl-kernel-source_6.30.223.271+bdcom-0ubuntu1~1.3_i386.deb
+10、Ifconfig
+11、Iwconfig
+12、Lsb_release -a
+13、Uname -a
+14、Alien -d wl-klmod-6_30_223_271-2.el7.elrepo.nosrc.rpm
+15、Rpm -ivh wl-kmod-6_30_223_271-2.el7.elrepo.nosrc.rpm
+16、Cd Broadcom_BCM4312
+17、Ls
+18、Apt-get install alien
+19、Which alien
+20、Apt-get update&apt-get upgrade
+21、Systemctl status network service
+22、Apt-get  -f install
+23、Rm /var/lib/apt/lists/* -vf
+24、Ifconfig wlan0 up
+25、Dkpg -i wireless-bcm43124-dkms_6.20.55.19-1_amd64.deb
+26、Service network-manger restart
+27、Service network net
+28、Start networking service
+29、Apt  install broadcom-sta-dkms
+30、Apt-get  install linux-source
+31、Apt-get install linux-headers-generic build-essential dkms
+32、Cd hybrid-v35-nodebug-pcoem-6_30_223_271
+33、Gunzip hybrid-v35-nodebug-pcoem-6_30_223_271
+34、Echo “blacklist b43”>> /etc/modprobe.d/blacklist
+35、Rmmod wl
+36、Rmmod ssb
+37、Rmmod b43
+38、./install.sh --update
+39、Tar xvfz hybrid-v35-nodebug-pcoem-6_30_223_271.tar.gz
+40、Make makefile
+41、Apt-get autoclean
+42、Apt-get  install  tor
+43、Df -h
+44、Lspci | grep -i net
+45、Modprobe -r b44 b43legacy ssb brcmsmac
+46、Apt-get install broadcom-sta-dkms
+47、Apt-get install linux-headers-$(uname -r|sed ‘s,[^-]*-[]*,,’)broadcom-sta-dkms
+48、Make -C /lib/modules/<4.15.x.x>/build m=’pwd’ clean
+49、Git clone https://github.com/Doyounger-horse/Broadcom_BCM4312
+50、Make install
+51、Apt-get install bcm431*-firmware*
+52、Dmidecomd | grep “product name”
+53、Dmesg | grep -i eth
+54、Lsusb
+55、Ip link
+56、Lspci -k
+57、Lspci|grep -i ‘eth’
+58、./fluxion.sh
+59、Apt-get install lighttpd
+60、Apt-get install php-cgi
+61、Apt-get install hostapd
+62、Python siteinstaller.py install
+63、Airodump-ng wlan0mon
+64、Airmon-ng start wlan0
+65、Chmod +x fluxion
+66、Wireshark
+67、Vi /usr/share/wireshark/init.lua
+68、Git clone https://github.com/wi-fi-analyzer/fluxion.git
+69、Git config --global http.postBuffer 924288000
+70、Kismet
+71、Wifiphisher -aI wlan0mon -iI wlan4 -p firmware-upgrade
+72、Apt-get install isc-dhcp-server
+73、Apt-get install isc-dhcp-common
+74、Apt-get purge isc-dhcp-common
+75、Apt-get install php5-cgi
+76、Python setup.py install
+77、Cd pywifi
+78、Git clone https://github.com/doyounger-horse/pywifi
+79、Git clone https://github.com/chunking/linsetmv1-2.git
+80、Git clone https://github.com/doyounger-horse/fern-wifi-cracker
+81、Git clone https://github.com/wifiphisher/wifiphisher.git
+82、Git clone https://github.com/aircrack-ng/aircrack-ng
+83、Git add origin git@github.com:doyounger-horse/klinux
+84、Git ls-remote --tags --heads https://github.com/leebaird/discover.git
+85、Ssh -v git@github.com
+86、Git config --global core.compression -1
+87、Export GIT_CURL_VERBOSE=1
+88、Export GIT_TRACE=1
+89、EXPORT GIT_TRACE_PACKET=1
+90、./fcitx.sh
+91、Git init --bare some.git
+92、Mkdir some.git
+93、Passwd git
+94、Useradd git
+95、Apt-get install fcitx-googlepinyin
+96、Apt-get install fcitx
+97、Dpkg -i sogoupin_2.2.0.0108_i386.deb
+98、Ssh -T git@github.com
+99、Ssh-keygen -t rsa -C “849242948@qq.com”
+100、Apt-get install git
+101、Git push -u origin master
+102、Sudo apt update && dist-upgrade
+103、Lsb_release -a
+
